@@ -418,6 +418,7 @@
 		{
 			position: relative;
 		}
+		
 
 /*********************************************************************************/
 /* Icons                                                                         */
@@ -982,6 +983,29 @@
 				color: inherit;
 			}
 
+
+/***Ric*/
+.mailme {
+	
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	
+ width: 200px;
+ height:200px;
+ 
+ 
+ background:transparent url('../images/msg-icon.png') center top no-repeat;
+}
+
+.mailme:hover {
+   background-image: url('../images/msg-icon-hover.png');
+}
+
+.box-center
+	{
+		text-align: center;
+	}
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
